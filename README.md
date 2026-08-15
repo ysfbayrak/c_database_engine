@@ -1,4 +1,3 @@
-[README(1).md](https://github.com/user-attachments/files/31100121/README.1.md)
 # c_database_engine
 
 A minimal, educational database engine written from scratch in C. It implements a simple REPL (`db >`) that accepts a small set of commands, stores rows in fixed-size pages, and persists data to disk between runs.
@@ -25,7 +24,6 @@ This project is inspired by the classic "build your own SQLite clone in C" style
 .
 ├── main.c        # Entire engine: pager, table, cursor, REPL, and command handling
 ├── test.sh        # Test script
-├── db              # Example / generated database file
 └── .gitignore
 ```
 
